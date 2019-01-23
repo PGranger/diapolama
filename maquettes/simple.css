@@ -1,0 +1,125 @@
+body {
+    /*background:black ;
+    color:#FFF ;*/
+}
+
+body .c.t .bx-wrapper {
+    top:8% ;
+}
+
+h1 {
+    padding:1% ;
+}
+
+body .bx-wrapper {
+    position:absolute ;
+    top:1% ;
+    left:1% ;
+    right:1% ;
+    bottom:1% ;
+}
+
+ul.simple, ul.simple>li {
+    list-style-type:none ;
+    margin:0 ;
+    padding:0 ;
+}
+
+ul.simple>li {
+    display:none ;
+    position:fixed ;
+    top:0 ;
+    right:0 ;
+    bottom:0 ;
+    left:0 ;
+    width:100% ;
+    height:100% ;
+    opacity:0 ;
+}
+
+ul.simple>li:first-child {
+    display:block ;
+    opacity:1 ;
+}
+
+.colphotos {
+    width:55% ;
+    display:inline-block ;
+    float:right ;
+    margin-bottom:2% ;
+    margin-left:2% ;
+}
+
+.colphotos .bx-wrapper {
+    background:0 ;
+    border:0 ;
+}
+
+ul.images {
+    list-style-type:none ;
+    margin:0 ;
+    padding:0 ;
+    width:100% ;
+    height:100% ;
+    margin:0 ;
+    padding-top:66% ;
+    position:relative ;
+}
+
+ul.images>li {
+    display:block ;
+    width:100% ;
+    height:100% ;
+    margin:0 ;
+    padding:0 ;
+    list-style-type:none ;
+    background-position:top right ;
+    background-repeat:no-repeat ;
+    background-size:contain ;
+    position:absolute ;
+    top:0 ;
+    right:0 ;
+    bottom:0 ;
+    left:0 ;
+    opacity:0 ;
+    z-index:1 ;
+    transition: 0.5s ease-in-out ;
+}
+
+ul.images>li.active {
+    opacity:1 ;
+    z-index:2 ;
+}
+
+ul.images>li>div.t {
+    position:absolute ;
+    top:0 ;
+    right:0 ;
+    padding:10px ;
+    background:rgba(0,0,0,.5) ;
+    font-size:0.8em ;
+}
+
+ul.images>li>div.t strong {
+    display:block ;
+    text-align:right ;
+    color:#FFF ;
+}
+
+.descriptifCourt {
+    font-style:italic ;
+    padding:1% 0 ;
+    font-weight:bold ;
+}
+
+.descriptifDetaille {
+    font-size:.9em ;
+    padding:1% 0 ;
+}
+
+.mcs {
+}
+
+.ouverture {
+    margin:1% 0 ;
+}

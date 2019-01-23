@@ -1,0 +1,24 @@
+body {
+
+}
+
+select option em {
+    font-size:0.8em ;
+}
+
+body>.bx-wrapper {
+    position:absolute ;
+    top:0 ;
+    left:0 ;
+    right:0 ;
+    bottom:0 ;
+}
+
+.bx-wrapper {
+    background:0 ;
+    border:0 ;
+    -webkit-box-shadow: none ;
+    box-shadow: none ;
+}
+
+.bx-controls-direction { display:none !important ;}

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "sitra-tourisme/sitra-api-php": "^1.0"
+    }
+}
